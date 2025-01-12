@@ -51,9 +51,11 @@ jobs:
           echo "export PATH=/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:\$PATH" >> $HOME/.bashrc
           source $HOME/.bashrc
       - name: Install Bundler
-        run: gem install bundler --user-install
+        run: |
+          gem install bundler --user-install
+          echo 'export PATH="$HOME/.gem/ruby/3.2.0/bin:$PATH"' >> $GITHUB_ENV
       - name: Install Dependencies
-        run: bundle install
+        run: bundle install -path vendor/bundle
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
