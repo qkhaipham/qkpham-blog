@@ -9,6 +9,9 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "csv"
 gem "base64"
+gem "webrick"
+gem "json"
+
 gem "jekyll", "~> 4.3.4"
 gem "minimal-mistakes-jekyll"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
