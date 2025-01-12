@@ -22,8 +22,8 @@ title: qkpham
 email: khai@qkpham.com
 description: >- # this means to ignore newlines until "baseurl:"
   Explore a developer blog filled with ( .NET ) software development insights, practical tips, and tech trends. Perfect for developers, architects, and tech enthusiasts looking to grow and build better systems.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "qkpham-blog" # the subpath of your site, e.g. /blog
+url: "http://qkpham.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username: qkhaipham 
 paginate: 5 # amount of posts to show
