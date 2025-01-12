@@ -39,23 +39,6 @@ jobs:
           ruby-version: '3.4' # Specify Ruby version
           bundler-cache: true # Automatically runs 'bundle install' and caches gems
           cache-version: 0    # Increment if gems need to be re-downloaded
-      # - name: Install Ruby
-      #   run: |
-      #     git clone https://github.com/rbenv/ruby-build.git
-      #     sudo ./ruby-build/install.sh
-      #     ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
-      #     mkdir -p /opt/hostedtoolcache/Ruby/3.1.4/x64
-      #     touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
-      # - name: Setup Ruby Environment
-      #   run: |
-      #     echo "export PATH=/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:\$PATH" >> $HOME/.bashrc
-      #     source $HOME/.bashrc
-      # - name: Install Bundler
-      #   run: |
-      #     gem install bundler --user-install
-      #     echo "PATH=$HOME/.local/share/gem/ruby/3.2.0/bin:\$PATH" >> $GITHUB_ENV
-      # - name: Install Dependencies
-      #   run: bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
