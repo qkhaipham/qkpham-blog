@@ -31,6 +31,12 @@ paginate_path: /page:num/
 sidebar:
   nav: "home"
   author: true
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-BLWZQVJQ7Q"
+    anonymize_ip: false # default
+
 
 # Site Author
 author:
