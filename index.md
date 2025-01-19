@@ -6,6 +6,7 @@ layout: home
 author_profile: true
 sidebar:
   - author
+analytics: true
 ---
 
 I’m Quang Khai Pham,

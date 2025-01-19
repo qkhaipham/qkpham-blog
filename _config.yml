@@ -69,6 +69,7 @@ defaults:
       read_time: true
       comments: true
       share: true
+      analytics: true
       #related: true
 
 

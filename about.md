@@ -5,6 +5,7 @@ permalink: /about/
 author_profile: true
 sidebar:
   - author
+analytics: true
 ---
 
 I’m Quang Khai Pham, a freelance software developer living in the Amsterdam area with over 10 years of experience building scalable, cloud-based solutions for enterprise businesses in different domains operating in the NL/EU market. 
